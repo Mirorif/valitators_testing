@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:validators_testing/my_notification_package.dart';
+import 'package:validators_testing/validators_testing.dart';
 
 
 void main() {
