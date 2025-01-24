@@ -25,4 +25,11 @@ class Validators {
     }
     return null;
   }
+
+  static String? requiredField(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'This is required field';
+    }
+    return null;
+  }
 }
