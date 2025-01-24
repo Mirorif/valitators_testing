@@ -3,7 +3,7 @@ description: "A Flutter package that simplifies form validation with easy-to-use
   validation functions for common use cases such as email validation,
   password strength checking, and required fields. This package aims to
   save developers time while ensuring user inputs are accurate and secure."
-version: 0.0.5
+version: 0.0.9
 homepage:
 
 environment:

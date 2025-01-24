@@ -19,17 +19,13 @@ Add the package to your project by including it in the pubspec.yaml file under d
 
 ```yaml
 dependencies:
-  form_validation: ^0.0.1
+  form_validation: ^0.0.9
 ```
 
 2. Install it
 
 ```bash
 $ flutter packages get
-```
-
-```bash
-flutter pub get
 ```
 
 3. Import it
@@ -102,23 +98,15 @@ class MyForm extends StatelessWidget {
 The package includes the following built-in validation functions:
 
 ```dart
-validateEmail(String? value);
+email(String? value);
+password(String? value);
+requiredField(String? value);
 ```
 Ensures the input is a valid email address.
-## Example:
-
-validator: validateEmail,
-
-## Example:
-
-validator: validatePassword,
-
-## Example:
-
-validator: validateRequired,
-
-## Testing
-To test the package, run the following command:
+## Examples:
+**validator: email,**
+**validator: password,**
+**validator: requiredField,**
 
 ## License
 This package is licensed under the MIT License. See the LICENSE file for more details.
